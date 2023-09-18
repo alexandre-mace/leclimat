@@ -17,7 +17,7 @@ const ZoomableImage = ({
   return (
     <Zoom>
       <Image
-        className={"rounded-2xl"}
+        className={"rounded-2xl mx-auto"}
         src={imageSrc}
         alt={imageAlt}
         width={imageWidth}
