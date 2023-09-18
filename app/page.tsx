@@ -86,10 +86,10 @@ export default function Home() {
         emojiHeight={80}
         emojiWidth={80}
         reverse={true}
-        nextSection={"#ghg"}
+        nextSection={"#ghe"}
       />
       <Section
-        id={"ghg"}
+        id={"ghe"}
         topic={"L'effet de serre"}
         title={"Qu'est ce que l'effet de serre ?"}
         description={{
@@ -106,6 +106,7 @@ export default function Home() {
         emojiAlt={"Fumée"}
         emojiHeight={80}
         emojiWidth={80}
+        nextSection={"#ghg"}
       />
       {/*<Example*/}
       {/*  content={*/}
@@ -117,7 +118,7 @@ export default function Home() {
       {/*  imageAlt={"Les gaz à effet de serre"}*/}
       {/*/>*/}
       <Section
-        id={"ghg3"}
+        id={"ghg"}
         topic={"Gaz à effet de serre"}
         title={"Nos émissions de GES ont fortement augmenté"}
         description={{
@@ -130,12 +131,12 @@ export default function Home() {
         imageAlt={"Concentration de CO2 dans l'atmosphère"}
         imageHeight={1600}
         imageWidth={889}
-        nextSection={"#climateFutur"}
         emojiSrc={"/images/Chart Increasing.png"}
         emojiAlt={"Fumée"}
         emojiHeight={80}
         emojiWidth={80}
         reverse={true}
+        nextSection={"#hugeRise"}
       />
       <Section
         id={"hugeRise"}
@@ -156,7 +157,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Feu"}
         emojiHeight={80}
         emojiWidth={80}
-        nextSection={"#humanResponsability"}
+        nextSection={"#temperatureRise"}
       />
       <Section
         id={"temperatureRise"}
@@ -175,6 +176,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiHeight={80}
         emojiWidth={80}
         reverse={true}
+        nextSection={"#climateFutur"}
       />
       <Section
         id={"climateFutur"}
@@ -195,7 +197,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiHeight={80}
         emojiWidth={80}
         reverse={true}
-        nextSection={"#temperatureRise"}
+        nextSection={"#consequences"}
       />
       <Section
         id={"consequences"}
@@ -215,7 +217,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"soleil"}
         emojiHeight={80}
         emojiWidth={80}
-        nextSection={"hyperthermia"}
+        nextSection={"#hyperthermia"}
       />
       <Section
         id={"hyperthermia"}
@@ -305,6 +307,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Tête chaude"}
         emojiHeight={80}
         emojiWidth={80}
+        nextSection={"#food"}
       />
       <Section
         id={"food"}
@@ -325,6 +328,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiHeight={80}
         emojiWidth={80}
         reverse={true}
+        nextSection={"#glacier"}
       />
       <Section
         id={"glacier"}
@@ -346,6 +350,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Glace"}
         emojiHeight={80}
         emojiWidth={80}
+        nextSection={"#seaRise"}
       />
       <Section
         id={"seaRise"}
@@ -367,6 +372,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Vague"}
         emojiHeight={80}
         emojiWidth={80}
+        nextSection={"#disease"}
       />
       <Section
         id={"disease"}
@@ -386,6 +392,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Vague"}
         emojiHeight={80}
         emojiWidth={80}
+        nextSection={"#nonLinear"}
       />
       <Section
         id={"nonLinear"}
@@ -401,6 +408,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Fusée"}
         emojiHeight={80}
         emojiWidth={80}
+        nextSection={"#justice"}
       />
       <Section
         id={"justice"}
@@ -419,7 +427,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Fusée"}
         emojiHeight={80}
         emojiWidth={80}
-        nextSection={"#limitParis"}
+        nextSection={"#inertia"}
       />
       <Section
         id={"inertia"}
@@ -436,6 +444,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Heure"}
         emojiHeight={80}
         emojiWidth={80}
+        nextSection={"#limitParis"}
       />
       {/*<Section*/}
       {/*  id={"humanResponsability"}*/}
@@ -512,7 +521,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiHeight={80}
         emojiWidth={80}
         reverse={true}
-        nextSection={"#inertia"}
+        nextSection={"#responsable"}
       />
       <Section
         id={"responsable"}
@@ -542,14 +551,14 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiHeight={80}
         emojiWidth={80}
         reverse={true}
-        nextSection={"#inertia"}
+        nextSection={"#individual-solutions"}
       />
       <Section
         id={"individual-solutions"}
         topic={"Solutions individuelles"}
         title={"Que faire à mon échelle ?"}
         description={{
-          __html: `<p>L'empreinte carbone moyenne d'un Français se situe <b>autour de 10 tonnes CO₂e</b>, le budget maximum cible par personne pour respecter l'accord de Paris est environ de 2 tonnes.</p><p><b>Se déplacer en train et non en avion</b>. La plupart des trajets en avion ne passent pas dans le budget cible pour respecter l'accord de Paris. Paris-New York = 1.6 tonne CO₂e, le budget entier d'une personne pour se loger etc : 2 tonnes.</p><p><b>Diviser par 3 sa consommation de viande</b>. La viande pour un Français en 2019 compte en moyenne pour 920kgCO₂e. Il faut diviser ce budget par au moins 3 pour respecter le budget de 2 tonnes par personne et par an.</p><p><b>Ne plus se chauffer à l'énergie fossile</b>. Pompe à chaleur, électrique ou chauffage au bois, il est possible d'économiser 1180kgCO₂e.</p><p><b>Privilégier le vélo pour les petits trajets</b>. La voiture compte pour 2030kgCO₂e, à elle seule elle consomme plus que le budget cible total par personne et par an.</p><p><b>Pour une voiture : il faut qu'elle soit petite et électrique</b>. La littérature scientifique est claire, il faut privilégier l'électrique à la voiture thermique. Cependant, le second paramètre important à prendre en compte est le poids de la voiture. Remplacer le parc actuel par des SUV électriques n'est pas soutenable.</p><p><b>Garder ses appareils plus longtemps</b>. Lave-vaisselle : 271kgCO₂e, Réfrigérateur : 196kgCO₂e, Écran LCD (24 pouces): 431kgCO₂e. Conserver plus longtemps ses appareils, acheter d'occasion ou réparer ses appareils sont des actions qui permettent de réduire de manière non négligeable votre empreinte carbone.</p><p>Ces mesures permettent de diviser votre empreinte jusqu'à 5. Pour mesurer votre empreinte carbone, c'est sur <a target="_blank" class="underline" href="https://nosgestesclimat.fr/">ce lien</a>.</p>`,
+          __html: `<p>L'empreinte carbone moyenne d'un Français se situe <b>autour de 10 tonnes CO₂e</b>, le budget maximum cible par personne pour respecter l'accord de Paris est environ de 2 tonnes.</p><p><b>Se déplacer en train et non en avion</b>. La plupart des trajets en avion ne passent pas dans le budget cible pour respecter l'accord de Paris. Paris-New York = 1.6 tonne CO₂e, le budget entier d'une personne pour se loger etc : 2 tonnes.</p><p><b>Diviser par 3 sa consommation de viande</b>. La viande pour un Français en 2019 compte en moyenne pour 920kgCO₂e. Il faut diviser ce budget par au moins 3 pour respecter le budget de 2 tonnes par personne et par an.</p><p><b>Ne plus se chauffer à l'énergie fossile</b>. Pompe à chaleur, électrique ou chauffage au bois, il est possible d'économiser 1180kgCO₂e.</p><p><b>Privilégier le vélo pour les petits trajets</b>. La voiture compte pour 2030kgCO₂e, à elle seule elle consomme plus que le budget cible total par personne et par an.</p><p><b>Pour une voiture : il faut qu'elle soit petite et électrique</b>. La littérature scientifique est claire, il faut privilégier l'électrique à la voiture thermique. Cependant, le second paramètre important à prendre en compte est le poids de la voiture. Remplacer le parc actuel par des SUV électriques n'est pas soutenable.</p><p><b>Garder ses appareils plus longtemps</b>. Lave-vaisselle : 271kgCO₂e, Réfrigérateur : 196kgCO₂e, Écran LCD (24 pouces): 431kgCO₂e. Conserver plus longtemps ses appareils, acheter d'occasion ou réparer ses appareils sont des actions qui permettent de réduire de manière non négligeable votre empreinte carbone.</p><p>Ces mesures permettent de diviser votre empreinte jusqu'à 5. Pour mesurer votre empreinte carbone, c'est sur <a target="_blank" class="underline" href="https://nosgestesclimat.fr/">ce lien</a>.</p><p>Pour aller plus loin, <b>militer</b> pour pousser le gouvernement et les entreprises à prendre des mesures en faveur de la réduction de la consommation d'énergies fossiles est important.</p>`,
         }}
         sources={[
           "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf#page=4",
@@ -570,7 +579,6 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiHeight={80}
         emojiWidth={80}
         reverse={true}
-        nextSection={"#inertia"}
       />
     </>
   );
