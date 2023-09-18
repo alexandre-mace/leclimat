@@ -80,7 +80,9 @@ const Section = ({
         >
           <div
             dangerouslySetInnerHTML={description}
-            className="mt-10 text-3xl font-medium leading-relaxed max-w-3xl space-y-96"
+            className={`mt-10 text-3xl ${
+              imageSrc ? "" : "mx-auto"
+            } font-medium leading-relaxed max-w-3xl space-y-96`}
           ></div>
           <div className={"mt-10"}>
             <div className={"text-lg font-medium"}>Sources</div>
