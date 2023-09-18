@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr">
+    <html lang="fr" className={"scroll-smooth"}>
       <link
         rel="icon"
         href="https://em-content.zobj.net/source/apple/354/hourglass-not-done_23f3.png"
