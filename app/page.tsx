@@ -196,7 +196,6 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Boule de cristal"}
         emojiHeight={80}
         emojiWidth={80}
-        reverse={true}
         nextSection={"#consequences"}
       />
       <Section
@@ -237,7 +236,6 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Tête chaude"}
         emojiHeight={80}
         emojiWidth={80}
-        reverse={true}
         nextSection={"#fire"}
       />
       <Section
@@ -259,6 +257,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Tête chaude"}
         emojiHeight={80}
         emojiWidth={80}
+        reverse={true}
       />
       <Example
         content={"En 2023, 1,5 fois la taille de l’Autriche a brûlé au Canada"}
@@ -286,7 +285,6 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Tête chaude"}
         emojiHeight={80}
         emojiWidth={80}
-        reverse={true}
         nextSection={"#biodiversity"}
       />
       <Section
@@ -308,6 +306,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiHeight={80}
         emojiWidth={80}
         nextSection={"#food"}
+        reverse={true}
       />
       <Section
         id={"food"}
@@ -327,7 +326,6 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Assiette"}
         emojiHeight={80}
         emojiWidth={80}
-        reverse={true}
         nextSection={"#glacier"}
       />
       <Section
@@ -351,6 +349,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiHeight={80}
         emojiWidth={80}
         nextSection={"#seaRise"}
+        reverse={true}
       />
       <Section
         id={"seaRise"}
@@ -393,6 +392,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiHeight={80}
         emojiWidth={80}
         nextSection={"#nonLinear"}
+        reverse={true}
       />
       <Section
         id={"nonLinear"}
@@ -520,7 +520,6 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Graphique décroissant"}
         emojiHeight={80}
         emojiWidth={80}
-        reverse={true}
         nextSection={"#responsable"}
       />
       <Section
@@ -578,7 +577,6 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiAlt={"Biceps"}
         emojiHeight={80}
         emojiWidth={80}
-        reverse={true}
       />
     </>
   );
