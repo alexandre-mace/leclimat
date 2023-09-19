@@ -39,7 +39,7 @@ export default function Home() {
       >
         <div className={"m-auto"}>
           Bienvenue dans le monde du changement climatique.{" "}
-          <Image
+          <img
             className={"inline-block -translate-y-2"}
             src={"/images/Waving Hand.png"}
             alt={"Main qui dit bonjour"}
