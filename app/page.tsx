@@ -64,11 +64,11 @@ export default function Home() {
         imageHeight={1134}
         imageWidth={1600}
         emojiSrc={
-          "https://em-content.zobj.net/source/apple/354/scroll_1f4dc.png"
+          "https://em-content.zobj.net/source/microsoft-teams/363/woman-teacher-light-skin-tone_1f469-1f3fb-200d-1f3eb.png"
         }
-        emojiAlt={"Parchemin"}
-        emojiHeight={70}
-        emojiWidth={70}
+        emojiAlt={"Professeure"}
+        emojiHeight={80}
+        emojiWidth={80}
         nextSection={"#oldIssue"}
         sources={["https://ourworldindata.org/global-energy-200-years"]}
       />
@@ -86,8 +86,10 @@ export default function Home() {
         imageAlt={"Warkworth, Science Notes and News"}
         imageHeight={788}
         imageWidth={580}
-        emojiSrc={"/images/Light Bulb.png"}
-        emojiAlt={"Ampoule"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/spiral-calendar_1f5d3-fe0f.png"
+        }
+        emojiAlt={"Calendrier"}
         emojiHeight={80}
         emojiWidth={80}
         reverse={true}
@@ -107,7 +109,9 @@ export default function Home() {
         imageAlt={"L'effet de serre"}
         imageHeight={1600}
         imageWidth={1131}
-        emojiSrc={"/images/Dashing Away.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/dashing-away_1f4a8.png"
+        }
         emojiAlt={"Fumée"}
         emojiHeight={80}
         emojiWidth={80}
@@ -136,7 +140,9 @@ export default function Home() {
         imageAlt={"Concentration de CO2 dans l'atmosphère"}
         imageHeight={1600}
         imageWidth={889}
-        emojiSrc={"/images/Chart Increasing.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/chart-increasing_1f4c8.png"
+        }
         emojiAlt={"Fumée"}
         emojiHeight={80}
         emojiWidth={80}
@@ -158,7 +164,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Hausse des températures"}
         imageHeight={507}
         imageWidth={1002}
-        emojiSrc={"/images/Fire.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/fire_1f525.png"
+        }
         emojiAlt={"Feu"}
         emojiHeight={80}
         emojiWidth={80}
@@ -176,7 +184,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Comparaison climat 5 degrés de différence"}
         imageHeight={1536}
         imageWidth={1048}
-        emojiSrc={"/images/Sun.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/sun_2600-fe0f.png"
+        }
         emojiAlt={"soleil"}
         emojiHeight={80}
         emojiWidth={80}
@@ -197,7 +207,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Scénarios climatiques"}
         imageHeight={522}
         imageWidth={1002}
-        emojiSrc={"/images/Crystal Ball.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/crystal-ball_1f52e.png"
+        }
         emojiAlt={"Boule de cristal"}
         emojiHeight={80}
         emojiWidth={80}
@@ -217,7 +229,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
           "https://report.ipcc.ch/ar6/wg2/IPCC_AR6_WGII_FullReport.pdf#page=2430",
           "https://bonpote.com/33-milliards-detres-humains-exposes-au-changement-climatique-le-nouveau-rapport-du-giec-est-sans-appel/",
         ]}
-        emojiSrc={"/images/Woman Health Worker.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/woman-health-worker_1f469-200d-2695-fe0f.png"
+        }
         emojiAlt={"soleil"}
         emojiHeight={80}
         emojiWidth={80}
@@ -237,7 +251,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Scénarios climatiques"}
         imageHeight={1020}
         imageWidth={2328}
-        emojiSrc={"/images/Hot Face.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/hot-face_1f975.png"
+        }
         emojiAlt={"Tête chaude"}
         emojiHeight={80}
         emojiWidth={80}
@@ -258,7 +274,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Scénarios climatiques"}
         imageHeight={1020}
         imageWidth={2328}
-        emojiSrc={"/images/Fire.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/fire_1f525.png"
+        }
         emojiAlt={"Tête chaude"}
         emojiHeight={80}
         emojiWidth={80}
@@ -286,7 +304,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Scénarios climatiques"}
         imageHeight={692}
         imageWidth={1702}
-        emojiSrc={"/images/Non-Potable Water.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/non-potable-water_1f6b1.png"
+        }
         emojiAlt={"Tête chaude"}
         emojiHeight={80}
         emojiWidth={80}
@@ -306,7 +326,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Futur de la biodiversité"}
         imageHeight={556}
         imageWidth={1548}
-        emojiSrc={"/images/Honeybee.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/honeybee_1f41d.png"
+        }
         emojiAlt={"Tête chaude"}
         emojiHeight={80}
         emojiWidth={80}
@@ -327,7 +349,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Impact sur l'alimentation"}
         imageHeight={826}
         imageWidth={3146}
-        emojiSrc={"/images/Fork and Knife with Plate.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/fork-and-knife-with-plate_1f37d-fe0f.png"
+        }
         emojiAlt={"Assiette"}
         emojiHeight={80}
         emojiWidth={80}
@@ -349,7 +373,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Impact sur l'alimentation"}
         imageHeight={554}
         imageWidth={1024}
-        emojiSrc={"/images/Ice.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/ice_1f9ca.png"
+        }
         emojiAlt={"Glace"}
         emojiHeight={80}
         emojiWidth={80}
@@ -372,7 +398,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Montée du niveau de la mer"}
         imageHeight={1134}
         imageWidth={1304}
-        emojiSrc={"/images/Water Wave.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/water-wave_1f30a.png"
+        }
         emojiAlt={"Vague"}
         emojiHeight={80}
         emojiWidth={80}
@@ -392,7 +420,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Microbe"}
         imageHeight={584}
         imageWidth={1898}
-        emojiSrc={"/images/Microbe.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/microbe_1f9a0.png"
+        }
         emojiAlt={"Vague"}
         emojiHeight={80}
         emojiWidth={80}
@@ -409,7 +439,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         sources={[
           "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_TS.pdf#page=24",
         ]}
-        emojiSrc={"/images/Rocket.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/rocket_1f680.pngg"
+        }
         emojiAlt={"Fusée"}
         emojiHeight={80}
         emojiWidth={80}
@@ -428,7 +460,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
           "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf#page=33",
           "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SummaryForPolicymakers.pdf#page=45",
         ]}
-        emojiSrc={"/images/Balance Scale.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/balance-scale_2696-fe0f.png"
+        }
         emojiAlt={"Fusée"}
         emojiHeight={80}
         emojiWidth={80}
@@ -445,7 +479,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
           "https://bonpote.com/existe-t-il-vraiment-une-inertie-climatique-de-20-ans/",
           "https://twitter.com/loic_giaccone/status/1681960928202334209",
         ]}
-        emojiSrc={"/images/Eight O’Clock.png"}
+        emojiSrc={"https://emojipedia.org/microsoft-teams/15.0/eight-oclock"}
         emojiAlt={"Heure"}
         emojiHeight={80}
         emojiWidth={80}
@@ -469,7 +503,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Réduction nécessaire pour respecter l'Accord de Paris"}
         imageHeight={1442}
         imageWidth={2058}
-        emojiSrc={"/images/Chart Decreasing.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/chart-decreasing_1f4c9.png"
+        }
         emojiAlt={"Graphique décroissant"}
         emojiHeight={80}
         emojiWidth={80}
@@ -498,7 +534,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Meme de Malheurs Actuels"}
         imageHeight={692}
         imageWidth={1598}
-        emojiSrc={"/images/Index Pointing at the Viewer.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/index-pointing-at-the-viewer_1faf5.png"
+        }
         emojiAlt={"Index pointant le visiteur"}
         emojiHeight={80}
         emojiWidth={80}
@@ -526,7 +564,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         imageAlt={"Capture d'écran de l'outil Reduce"}
         imageHeight={402}
         imageWidth={3436}
-        emojiSrc={"/images/Flexed Biceps.png"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/flexed-biceps_1f4aa.png"
+        }
         emojiAlt={"Biceps"}
         emojiHeight={80}
         emojiWidth={80}
