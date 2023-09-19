@@ -431,7 +431,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
       />
       <Section
         id={"nonLinear"}
-        topic={"Glacier"}
+        topic={"Exponentielle"}
         title={"Des conséquences non linéaires"}
         description={{
           __html: `<p>Dans le monde économique, nous avons l'habitude de penser de manière linéaire. Par exemple, si une action coûte 100 euros, alors deux actions coûtent 200 euros. </p><p>Cependant, il est important de comprendre que ce type de raisonnement ne s'applique pas toujours au monde naturel, qui peut être beaucoup plus complexe.</p><p>On pourrait penser que si la température augmente de 2 degrés Celsius, c'est deux fois pire qu'une augmentation d'un degré. </p><p>Mais en réalité, ce n'est pas si simple. <b>Les conséquences du changement climatique augmentent beaucoup plus rapidement que l'élévation de la température</b>. </p><p>Un réchauffement de 2 degrés Celsius peut être 50 fois plus grave qu'un réchauffement d'un degré. Chaque demi-degré de plus peut avoir des conséquences désagréables équivalent à toutes les conséquences que nous avons déjà connues.</p><p>Il est essentiel de comprendre que les impacts du changement climatique ne <b>suivent pas une progression linéaire</b>. Chaque petit degré supplémentaire de réchauffement peut avoir des conséquences disproportionnées et graves pour notre planète et ses écosystèmes.</p><p><p>Tout acte manqué, narratif favorisant le statu-quo conduit à des ⅒ de degrés supplémentaires, à des souffrances, à des morts.</p>`,
@@ -440,7 +440,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
           "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_TS.pdf#page=24",
         ]}
         emojiSrc={
-          "https://em-content.zobj.net/source/microsoft-teams/363/rocket_1f680.pngg"
+          "https://em-content.zobj.net/source/microsoft-teams/363/rocket_1f680.png"
         }
         emojiAlt={"Fusée"}
         emojiHeight={80}
@@ -479,7 +479,9 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
           "https://bonpote.com/existe-t-il-vraiment-une-inertie-climatique-de-20-ans/",
           "https://twitter.com/loic_giaccone/status/1681960928202334209",
         ]}
-        emojiSrc={"https://emojipedia.org/microsoft-teams/15.0/eight-oclock"}
+        emojiSrc={
+          "https://em-content.zobj.net/source/microsoft-teams/363/eight-oclock_1f557.png"
+        }
         emojiAlt={"Heure"}
         emojiHeight={80}
         emojiWidth={80}
@@ -573,7 +575,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
       />
       <div
         className={
-          "mx-auto text-center mb-20 mt-80 text-3xl sm:text-6xl text-slate-900 font-extrabold"
+          "mx-auto text-center mt-80 mb-10 text-3xl sm:text-6xl text-slate-900 font-extrabold"
         }
       >
         FAQ
