@@ -15,6 +15,7 @@ const SectionEmoji = ({
 }) => {
   return (
     <Image
+      loading={"eager"}
       className={"m-auto"}
       src={emojiSrc}
       alt={emojiAlt}
