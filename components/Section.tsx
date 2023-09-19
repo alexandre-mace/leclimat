@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ZoomableImage from "@/components/ZoomableImage";
 import NextSection from "@/components/NextSection";
+import SectionEmoji from "@/components/SectionEmoji";
 
 const Section = ({
   id,
@@ -51,12 +52,11 @@ const Section = ({
               reverse && imageSrc ? "ml-auto" : ""
             }`}
           >
-            <Image
-              className={"m-auto"}
-              src={emojiSrc}
-              alt={emojiAlt}
-              height={emojiHeight}
-              width={emojiWidth}
+            <SectionEmoji
+              emojiSrc={emojiSrc}
+              emojiAlt={emojiAlt}
+              emojiHeight={emojiHeight}
+              emojiWidth={emojiWidth}
             />
           </div>
         )}
