@@ -196,7 +196,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
       <Section
         id={"climateFutur"}
         topic={"Futur climatique"}
-        title={"De combien allons nous réchauffer la planète"}
+        title={"De combien allons nous réchauffer la planète ?"}
         description={{
           __html: `<p>Le rapport AR6 du GIEC explore les réponses climatiques à <b>cinq nouveaux scénarios d'émissions</b>.</p><p>Ces scénarios projettent les changements climatiques sur le 21e siècle pour différentes périodes et niveaux de réchauffement.</p> <p>La quantité de réchauffement climatique mondial que nous pouvons attendre au cours du prochain siècle <b>dépend du niveau d'émissions de gaz à effet de serre</b>.</p><p>Le réchauffement moyen annuel projeté sur les terres à la fin du siècle se situe dans la <b>fourchette de 0,9 à 5,6°C par rapport aux deux dernières décennies</b> du XXe siècle, en fonction du scénario d'émissions.</p>`,
         }}

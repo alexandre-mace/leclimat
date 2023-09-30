@@ -88,7 +88,7 @@ const Section = ({
             <div className={"text-lg font-medium"}>Sources</div>
             <ul>
               {sources.map((source, index) => (
-                <li key={source + index} className={"mt-2"}>
+                <li key={source + Math.random()} className={"mt-2"}>
                   <a
                     target={"_blank"}
                     className={
