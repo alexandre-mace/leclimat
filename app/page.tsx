@@ -434,7 +434,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         topic={"Exponentielle"}
         title={"Des conséquences non linéaires"}
         description={{
-          __html: `<p>Dans le monde économique, nous avons l'habitude de penser de manière linéaire. Par exemple, si une action coûte 100 euros, alors deux actions coûtent 200 euros. </p><p>Cependant, il est important de comprendre que ce type de raisonnement ne s'applique pas toujours au monde naturel, qui peut être beaucoup plus complexe.</p><p>On pourrait penser que si la température augmente de 2 degrés Celsius, c'est deux fois pire qu'une augmentation d'un degré. </p><p>Mais en réalité, ce n'est pas si simple. <b>Les conséquences du changement climatique augmentent beaucoup plus rapidement que l'élévation de la température</b>. </p><p>Un réchauffement de 2 degrés Celsius peut être 50 fois plus grave qu'un réchauffement d'un degré. Chaque demi-degré de plus peut avoir des conséquences désagréables équivalent à toutes les conséquences que nous avons déjà connues.</p><p>Il est essentiel de comprendre que les impacts du changement climatique ne <b>suivent pas une progression linéaire</b>. Chaque petit degré supplémentaire de réchauffement peut avoir des conséquences disproportionnées et graves pour notre planète et ses écosystèmes.</p><p><p>Tout acte manqué, narratif favorisant le statu-quo conduit à des ⅒ de degrés supplémentaires, à des souffrances, à des morts.</p>`,
+          __html: `<p>Dans le monde économique, nous avons l'habitude de penser de manière linéaire. Par exemple, si une action coûte 100 euros, alors deux actions coûtent 200 euros. </p><p>Cependant, il est important de comprendre que ce type de raisonnement ne s'applique pas toujours au monde naturel, qui peut être beaucoup plus complexe.</p><p>On pourrait penser que si la température augmente de 2 degrés Celsius, c'est deux fois pire qu'une augmentation d'un degré. </p><p>Mais en réalité, ce n'est pas si simple. <b>Les conséquences du changement climatique augmentent beaucoup plus rapidement que l'élévation de la température</b>. </p><p>Un réchauffement de 2 degrés Celsius peut être 50 fois plus grave qu'un réchauffement d'un degré. Chaque demi-degré de plus peut avoir des conséquences désagréables équivalent à toutes les conséquences que nous avons déjà connues.</p><p>Il est essentiel de comprendre que les impacts du changement climatique ne <b>suivent pas une progression linéaire</b>. Chaque petit degré supplémentaire de réchauffement peut avoir des conséquences disproportionnées et graves pour notre planète et ses écosystèmes.</p><p><p>La différence entre 2°C et 1.5°C est très importante: on parle de centaines de millions de personnes en moins avec un accès à l'eau par exemple. Tout acte manqué, narratif favorisant le statu-quo conduit à des ⅒ de degrés supplémentaires, à des souffrances, à des morts.</p>`,
         }}
         sources={[
           "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_TS.pdf#page=24",
@@ -463,7 +463,7 @@ depuis au moins 2000 ans</b>.</p> <p>L'ensemble du système climatique connaît 
         emojiSrc={
           "https://em-content.zobj.net/source/microsoft-teams/363/balance-scale_2696-fe0f.png"
         }
-        emojiAlt={"Fusée"}
+        emojiAlt={"Balance"}
         emojiHeight={80}
         emojiWidth={80}
         nextSection={"#inertia"}

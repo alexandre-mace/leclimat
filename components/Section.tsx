@@ -87,8 +87,8 @@ const Section = ({
           <div className={"mt-10"}>
             <div className={"text-lg font-medium"}>Sources</div>
             <ul>
-              {sources.map((source) => (
-                <li key={source} className={"mt-2"}>
+              {sources.map((source, index) => (
+                <li key={source + index} className={"mt-2"}>
                   <a
                     target={"_blank"}
                     className={
@@ -126,12 +126,15 @@ const Section = ({
                 "rounded-3xl shadow-xl bg-white p-10 m-auto hover:shadow-2xl transition"
               }
             >
-              <ZoomableImage
-                imageSrc={imageSrc}
-                imageAlt={imageAlt}
-                imageHeight={imageHeight}
-                imageWidth={imageWidth}
-              />
+              <ZoomableImage>
+                <Image
+                  className={"rounded-2xl mx-auto"}
+                  src={imageSrc}
+                  alt={imageAlt}
+                  width={imageWidth}
+                  height={imageHeight}
+                />
+              </ZoomableImage>
             </div>
           </div>
         )}
