@@ -1,4 +1,5 @@
 import ZoomableImage from "@/components/ZoomableImage";
+import Image from "next/image";
 
 const Example = ({
   content,
@@ -23,12 +24,15 @@ const Example = ({
           "rounded-3xl w-fit mx-auto shadow-xl bg-white p-10 m-auto hover:shadow-2xl transition"
         }
       >
-        <ZoomableImage
-          imageSrc={imageSrc}
-          imageWidth={imageWidth}
-          imageHeight={imageHeight}
-          imageAlt={imageAlt}
-        />
+        <ZoomableImage>
+          <Image
+            className={"rounded-2xl mx-auto"}
+            src={imageSrc}
+            alt={imageAlt}
+            width={imageWidth}
+            height={imageHeight}
+          />
+        </ZoomableImage>
       </div>
     </>
   );
