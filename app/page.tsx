@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <div className="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-64 h-screen">
         <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-7xl tracking-tight text-center">
-          Le climat en 5 minutes{" "}
+          Le climat en 10 minutes{" "}
           <Image
             className={"inline-block -translate-y-2"}
             width={60}
@@ -27,7 +27,7 @@ export default function Home() {
         </h1>
         <p className="mt-6 text-2xl leading-normal text-slate-600 text-center max-w-4xl mx-auto">
           S'informer sur la responsabilité humaine, les conséquences du
-          changement climatique et solutions en 5 minutes.
+          changement climatique et solutions en 10 minutes.
         </p>
         <NextSection content={"C'est parti"} anchor={"#start"} />
       </div>

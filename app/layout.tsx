@@ -8,10 +8,10 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Le climat en 5 minutes",
+  title: "Le climat en 10 minutes",
   description:
     "S'informer sur la responsabilité humaine, les conséquences du\n" +
-    "          changement climatique et solutions en 5 minutes.",
+    "          changement climatique et solutions en 10 minutes.",
 };
 
 export default function RootLayout({
