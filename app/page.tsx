@@ -47,7 +47,7 @@ export default function Home() {
             height={50}
           />
           <br />
-          En 5 minutes, explorons les <b>bases essentielles</b> pour comprendre
+          En 10 minutes, explorons les <b>bases essentielles</b> pour comprendre
           ce sujet vital.
           <NextSection anchor={"#energySources"} noMargin={true} />
         </div>

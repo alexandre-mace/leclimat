@@ -13,7 +13,7 @@ const Header = () => (
           width={20}
           className={"inline-block"}
         />{" "}
-        Le climat en 5 minutes
+        Le climat en 10 minutes
       </a>
     </div>
     <div className="md:text-md flex items-center p-2 text-sm">
