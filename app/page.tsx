@@ -27,7 +27,7 @@ export default function Home() {
         </h1>
         <p className="mt-6 text-2xl leading-normal text-slate-600 text-center max-w-4xl mx-auto">
           S'informer sur la responsabilité humaine, les conséquences du
-          changement climatique et solutions en 10 minutes.
+          changement climatique et les solutions en 10 minutes.
         </p>
         <NextSection content={"C'est parti"} anchor={"#start"} />
       </div>

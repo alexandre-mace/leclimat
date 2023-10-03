@@ -10,8 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Le climat en 10 minutes",
   description:
-    "S'informer sur la responsabilité humaine, les conséquences du\n" +
-    "          changement climatique et solutions en 10 minutes.",
+    "S'informer sur la responsabilité humaine, les conséquences du changement climatique et les solutions en 10 minutes.",
 };
 
 export default function RootLayout({
