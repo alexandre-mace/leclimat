@@ -1,9 +1,10 @@
 import Image from "next/image";
+import ShareButton from "@/components/ShareButton";
 
 const Header = () => (
-  <header className="flex flex-wrap justify-between">
-    <div className={"flex flex-wrap gap-2 p-2"}>
-      <a href="/" className={"p-2 font-medium"}>
+  <header className="sticky top-0 z-40 flex flex-wrap justify-between bg-white/80 dark:bg-slate-950/80 backdrop-blur-sm">
+    <div className={"flex items-center gap-1 p-2"}>
+      <a href="/" className={"p-3 font-medium flex items-center min-h-[44px]"}>
         <Image
           src={
             "https://em-content.zobj.net/source/apple/354/hourglass-not-done_23f3.png"
@@ -15,13 +16,14 @@ const Header = () => (
         />{" "}
         Le climat en 10 minutes
       </a>
+      <ShareButton />
     </div>
-    <div className="md:text-md flex items-center p-2 text-sm">
-      <div className={"mr-3"}>un outil du</div>
+    <div className="md:text-md flex items-center gap-2 p-2 text-sm">
+      <div className={"mr-1"}>un outil du</div>
       <a
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center rounded-xl bg-slate-100 px-4 py-2 transition-all md:hover:bg-slate-200"
+        className="flex items-center rounded-xl px-4 py-2 min-h-[44px] transition-colors md:hover:bg-slate-100 dark:md:hover:bg-slate-800"
         href="https://climatelab.fr"
       >
         <Image
