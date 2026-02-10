@@ -55,7 +55,7 @@ const ScrollProgress = () => {
   }, []);
 
   return (
-    <div className="sticky top-[44px] left-0 w-full z-30">
+    <div className="w-full relative">
       <div className="h-1 w-full">
         <div
           className="h-full bg-slate-900 dark:bg-slate-100 transition-[width] duration-150"
