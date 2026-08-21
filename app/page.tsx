@@ -291,6 +291,206 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
+        <AccordionItem value="item-3">
+          <AccordionTrigger>
+            Météo et climat : quelle différence ?
+          </AccordionTrigger>
+          <AccordionContent>
+            <p>
+              La météo, c'est le temps qu'il fait à un moment et à un endroit
+              donné. La météorologie étudie les processus qui pilotent la
+              dynamique de l'atmosphère, notamment en vue de la prévision du
+              temps. Cette prévision n'a plus de sens au bout d'une dizaine de
+              jours car l'état de l'atmosphère à un jour et un endroit donné
+              dépend fortement des conditions initiales — c'est le caractère
+              chaotique de la circulation atmosphérique.
+            </p>
+            <p>
+              Le climat désigne les valeurs moyennes des paramètres
+              météorologiques (précipitations, températures, nébulosité...)
+              mesurées sur de longues périodes et sur des secteurs géographiques
+              vastes et bien définis. 30 ans d'observations sont nécessaires
+              pour définir des caractéristiques d'ordre climatique.
+            </p>
+            <p>
+              C'est pourquoi une période de froid prononcée localement ne remet
+              pas en cause la réalité du réchauffement planétaire. De même, une
+              tempête inhabituellement violente n'est pas forcément une preuve
+              de modification du climat : pour l'affirmer, il faut constater que
+              la fréquence d'un événement augmente de façon significative dans
+              une région donnée et sur une longue période.
+            </p>
+            <div className={"mt-3"}>Sources</div>
+            <ul>
+              {[
+                "https://bonpote.com/comment-ne-plus-confondre-meteo-et-climat",
+              ].map((link, index) => (
+                <li key={link + index}>
+                  <a
+                    className={"underline text-slate-600 dark:text-slate-300"}
+                    target={"_blank"}
+                    rel={"noopener noreferrer"}
+                    href={link}
+                  >
+                    {(() => { try { return new URL(link).hostname.replace("www.", ""); } catch { return link; } })()}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-4">
+          <AccordionTrigger>Qu'est-ce que le GIEC ?</AccordionTrigger>
+          <AccordionContent>
+            <p>
+              Le Groupe d'experts intergouvernemental sur l'évolution du climat
+              (GIEC) a été créé en 1988 en vue de fournir des évaluations
+              détaillées de l'état des connaissances scientifiques, techniques
+              et socio-économiques sur les changements climatiques, leurs
+              causes, leurs répercussions potentielles et les stratégies de
+              parade.
+            </p>
+            <p>
+              Le dernier rapport du GIEC en chiffres : 234 auteurs, 14 000
+              papiers scientifiques évalués, 78 007 commentaires des
+              gouvernements et d'experts.
+            </p>
+            <div className={"mt-3"}>Sources</div>
+            <ul>
+              {["https://www.ipcc.ch/about/"].map((link, index) => (
+                <li key={link + index}>
+                  <a
+                    className={"underline text-slate-600 dark:text-slate-300"}
+                    target={"_blank"}
+                    rel={"noopener noreferrer"}
+                    href={link}
+                  >
+                    {(() => { try { return new URL(link).hostname.replace("www.", ""); } catch { return link; } })()}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-5">
+          <AccordionTrigger>
+            Émissions de GES et empreinte carbone : quelle différence ?
+          </AccordionTrigger>
+          <AccordionContent>
+            <p>
+              La plupart du temps, lorsque l'on parle des émissions de GES d'un
+              pays, l'import et l'export ne sont pas pris en compte : on parle
+              d'émissions « sur le territoire ».
+            </p>
+            <p>
+              L'empreinte carbone constitue un calcul plus « réaliste » car elle
+              prend en compte l'import et l'export. L'exemple de la France :
+              la tertiarisation du pays a fait baisser ses émissions de GES pour
+              le secteur de l'industrie, mais ces émissions délocalisées sont
+              comptées dans l'empreinte carbone. L'empreinte de la France est
+              quasiment le double de ses émissions territoriales.
+            </p>
+            <div className={"mt-3"}>Sources</div>
+            <ul>
+              {["https://ourworldindata.org/emissions-by-sector"].map(
+                (link, index) => (
+                  <li key={link + index}>
+                    <a
+                      className={"underline text-slate-600 dark:text-slate-300"}
+                      target={"_blank"}
+                      rel={"noopener noreferrer"}
+                      href={link}
+                    >
+                      {(() => { try { return new URL(link).hostname.replace("www.", ""); } catch { return link; } })()}
+                    </a>
+                  </li>
+                ),
+              )}
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-6">
+          <AccordionTrigger>
+            Les événements météorologiques extrêmes sont-ils dus au changement
+            climatique ?
+          </AccordionTrigger>
+          <AccordionContent>
+            <p>
+              La science de l'attribution permet aujourd'hui de quantifier le
+              lien entre un événement extrême donné et le changement climatique.
+              Quelques exemples :
+            </p>
+            <p>
+              2022 : la vague de chaleur qui a frappé l'Inde et le Pakistan a
+              été rendue trente fois plus probable par le changement climatique.
+            </p>
+            <p>
+              2019-2020 : des feux aussi sévères que ceux survenus en Australie
+              sont 9 fois plus probables dans le climat actuel que pour un
+              climat typique des années 1900.
+            </p>
+            <p>
+              2020 : les feux survenus en Sibérie sont 600 fois plus probables
+              dans le climat actuel que dans un climat préindustriel.
+            </p>
+            <div className={"mt-3"}>Sources</div>
+            <ul>
+              {[
+                "https://www.worldweatherattribution.org/about/",
+                "https://www.worldweatherattribution.org/wp-content/uploads/India_Pak-Heatwave-scientific-report.pdf",
+                "https://www.worldweatherattribution.org/bushfires-in-australia-2019-2020/",
+                "https://www.worldweatherattribution.org/siberian-heatwave-of-2020-almost-impossible-without-climate-change/",
+              ].map((link, index) => (
+                <li key={link + index}>
+                  <a
+                    className={"underline text-slate-600 dark:text-slate-300"}
+                    target={"_blank"}
+                    rel={"noopener noreferrer"}
+                    href={link}
+                  >
+                    {(() => { try { return new URL(link).hostname.replace("www.", ""); } catch { return link; } })()}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-7">
+          <AccordionTrigger>
+            L'inaction climatique coûte-t-elle plus cher que l'action ?
+          </AccordionTrigger>
+          <AccordionContent>
+            <p>
+              L'économie sera durement impactée par le changement climatique,
+              puisque les conditions seront si dures qu'il ne sera tout
+              simplement plus possible de travailler dans certaines régions.
+            </p>
+            <p>
+              Par exemple, l'Inde perd actuellement plus de 100 milliards
+              d'heures de travail par an à cause des vagues de chaleur. C'est de
+              très loin le pays le plus concerné par le sujet, et les chiffres
+              anticipés pour un réchauffement de +2°C ou +4°C sont bien
+              supérieurs.
+            </p>
+            <div className={"mt-3"}>Sources</div>
+            <ul>
+              {["https://www.nature.com/articles/s41467-021-27328-y"].map(
+                (link, index) => (
+                  <li key={link + index}>
+                    <a
+                      className={"underline text-slate-600 dark:text-slate-300"}
+                      target={"_blank"}
+                      rel={"noopener noreferrer"}
+                      href={link}
+                    >
+                      {(() => { try { return new URL(link).hostname.replace("www.", ""); } catch { return link; } })()}
+                    </a>
+                  </li>
+                ),
+              )}
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
       </Accordion>
     </>
   );
