@@ -3,8 +3,10 @@ import "react-medium-image-zoom/dist/styles.css";
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import { Brand } from "@/components/brand";
+import ScrollProgress from "@/components/ScrollProgress";
+import ShareButton from "@/components/ShareButton";
+import { ToolShell } from "@/components/tool-shell";
 
 import BackToTop from "@/components/BackToTop";
 
@@ -42,9 +44,24 @@ export default function RootLayout({
       <body
         className={`${GeistSans.variable} ${GeistMono.variable} flex min-h-dvh flex-col font-sans antialiased`}
       >
-        <Header />
-        <main className={"text-foreground"}>{children}</main>
-        <Footer />
+        <ToolShell
+          sticky
+          width="full"
+          className="text-foreground"
+          footerSign={<>Le climat en 10 minutes ⏳</>}
+          brand={
+            <div className="flex items-center gap-1">
+              <Brand
+                name="Le climat en 10 minutes"
+                logo="https://em-content.zobj.net/source/apple/354/hourglass-not-done_23f3.png"
+              />
+              <ShareButton />
+            </div>
+          }
+          headerBelow={<ScrollProgress />}
+        >
+          {children}
+        </ToolShell>
         <BackToTop />
       </body>
     </html>
