@@ -2,6 +2,7 @@
 
 import { Share2 } from "lucide-react";
 import { useCallback, useState } from "react";
+import { Button } from "@/components/ui/button";
 
 const ShareButton = () => {
   const [copied, setCopied] = useState(false);
@@ -27,14 +28,10 @@ const ShareButton = () => {
   }, []);
 
   return (
-    <button
-      onClick={handleShare}
-      className="flex items-center gap-1.5 rounded-xl px-4 py-2 min-h-[44px] text-sm transition-colors md:hover:bg-slate-100"
-      aria-label="Partager"
-    >
-      <Share2 size={16} />
+    <Button variant="ghost" size="sm" onPress={handleShare} aria-label="Partager">
+      <Share2 data-icon="inline-start" />
       <span className="hidden sm:inline">{copied ? "Copié !" : "Partager"}</span>
-    </button>
+    </Button>
   );
 };
 

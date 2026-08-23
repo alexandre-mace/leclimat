@@ -36,7 +36,7 @@ const Example = ({
             />
           </ZoomableImage>
         </div>
-        <figcaption className="mt-3 text-center text-sm text-slate-500">
+        <figcaption className="mt-3 text-center text-sm text-muted-foreground">
           {imageAlt}
         </figcaption>
       </figure>

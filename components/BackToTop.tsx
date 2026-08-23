@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { ArrowUp } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const BackToTop = () => {
   const [visible, setVisible] = useState(false);
@@ -15,20 +16,20 @@ const BackToTop = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
   return (
-    <button
-      onClick={scrollToTop}
-      aria-label="Retour en haut"
-      className={`fixed bottom-6 right-6 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-slate-900 text-white shadow-lg transition-all hover:bg-slate-700 ${
-        visible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0 pointer-events-none"
+    <Button
+      variant="outline"
+      size="icon"
+      aria-label="Revenir en haut de la page"
+      onPress={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      className={`fixed right-5 bottom-5 z-50 transition-all duration-300 ${
+        visible
+          ? "translate-y-0 opacity-100"
+          : "pointer-events-none translate-y-16 opacity-0"
       }`}
     >
-      <ArrowUp size={20} />
-    </button>
+      <ArrowUp className="h-4 w-4" />
+    </Button>
   );
 };
 

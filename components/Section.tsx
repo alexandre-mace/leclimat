@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { TextLink } from "@/components/ui/text-link";
 import ZoomableImage from "@/components/ZoomableImage";
 import NextSection from "@/components/NextSection";
 import SectionEmoji from "@/components/SectionEmoji";
@@ -57,7 +58,7 @@ const Section = ({
 }) => {
   return (
     <div className="max-w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-28 mb-16 lg:mb-32">
-      <div className="mx-auto mb-10 h-px w-16 bg-slate-200" />
+      <div className="mx-auto mb-10 h-px w-16 bg-border" />
       <div
         id={id}
         className={`w-full lg:w-2/5 ${imageSrc ? "" : "m-auto text-center"} pt-10 ${
@@ -68,7 +69,7 @@ const Section = ({
           <div
             className={`w-32 h-32 ${
               !imageSrc ? "mx-auto" : ""
-            } p-[0.1875rem] rounded-full ring-1 ring-slate-900/10 shadow overflow-hidden flex justify-center items-center ${
+            } p-[0.1875rem] rounded-full ring-1 ring-border shadow overflow-hidden flex justify-center items-center ${
               reverse && imageSrc ? "lg:ml-auto" : ""
             }`}
           >
@@ -81,11 +82,11 @@ const Section = ({
           </div>
         )}
         {topic && (
-          <span className="mt-8 block text-3xl font-semibold text-slate-400">
+          <span className="mt-8 block font-mono text-sm tracking-wider text-muted-foreground uppercase">
             {topic}
           </span>
         )}
-        <h2 className="mt-10 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-slate-900 font-extrabold">
+        <h2 className="mt-6 text-3xl font-semibold tracking-tight text-balance sm:text-4xl lg:text-5xl">
           {title}
         </h2>
       </div>
@@ -99,21 +100,19 @@ const Section = ({
         >
           <div
             dangerouslySetInnerHTML={description}
-            className={`mt-10 text-lg sm:text-xl md:text-2xl lg:text-3xl ${
+            className={`mt-10 text-lg leading-relaxed sm:text-xl lg:text-2xl ${
               imageSrc ? "" : "mx-auto"
             } font-medium leading-relaxed max-w-3xl space-y-6`}
           ></div>
           <div className={"mt-10"}>
-            <div className={"text-lg font-medium"}>Sources</div>
+            <div className={"font-mono text-xs tracking-wider text-muted-foreground uppercase"}>Sources</div>
             <ul>
               {sources.map((source, index) => (
                 <li key={source + index} className={"mt-2"}>
-                  <a
+                  <TextLink
                     target={"_blank"}
                     rel={"noopener noreferrer"}
-                    className={
-                      "underline flex gap-2 items-center hover:text-slate-700"
-                    }
+                    className={"flex items-center gap-2"}
                     href={source}
                   >
                     <span className={"inline-block"}>
@@ -132,8 +131,8 @@ const Section = ({
                         />
                       </svg>
                     </span>
-                    <span className={"inline-block text-slate-600 break-all"}>{formatSourceLabel(source)}</span>
-                  </a>
+                    <span className={"inline-block break-all"}>{formatSourceLabel(source)}</span>
+                  </TextLink>
                 </li>
               ))}
             </ul>
@@ -144,7 +143,7 @@ const Section = ({
             <figure>
               <div
                 className={
-                  "rounded-3xl shadow-xl bg-white p-10 m-auto hover:shadow-2xl transition"
+                  "m-auto rounded-3xl border bg-card p-10 shadow-sm transition hover:shadow-md"
                 }
               >
                 <ZoomableImage>
@@ -158,7 +157,7 @@ const Section = ({
                   />
                 </ZoomableImage>
               </div>
-              <figcaption className="mt-3 text-center text-sm text-slate-500">
+              <figcaption className="mt-3 text-center text-sm text-muted-foreground">
                 {imageAlt}
               </figcaption>
             </figure>

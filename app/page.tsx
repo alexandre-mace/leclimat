@@ -8,6 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { TextLink } from "@/components/ui/text-link";
 import { sections } from "@/data/sections";
 
 const sectionsBeforeFire = sections.filter(
@@ -48,7 +49,7 @@ export default function Home() {
   return (
     <>
       <div className="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-64 min-h-screen px-4 sm:px-6">
-        <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-7xl tracking-tight text-center">
+        <h1 className="text-center text-4xl font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl">
           Le climat en 10 minutes{" "}
           <Image
             className={"inline-block -translate-y-2"}
@@ -60,7 +61,7 @@ export default function Home() {
             alt={"Sablier animé"}
           />
         </h1>
-        <p className="mt-6 text-xl sm:text-2xl lg:text-3xl leading-normal text-slate-600 text-center max-w-4xl mx-auto">
+        <p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-relaxed text-pretty text-muted-foreground sm:text-xl lg:text-2xl">
           S'informer sur la responsabilité humaine, les conséquences du
           changement climatique et les solutions en 10 minutes.
         </p>
@@ -104,7 +105,7 @@ export default function Home() {
       <div
         id={"faq"}
         className={
-          "mx-auto text-center mt-24 lg:mt-40 mb-10 text-3xl sm:text-6xl text-slate-900 font-extrabold"
+          "mx-auto mt-24 mb-10 text-center text-3xl font-semibold tracking-tight text-balance sm:text-5xl lg:mt-40"
         }
       >
         FAQ
@@ -157,14 +158,13 @@ export default function Home() {
                 "https://report.ipcc.ch/ar6/wg1/IPCC_AR6_WGI_FullReport.pdf#page=532",
               ].map((link, index) => (
                 <li key={link + index}>
-                  <a
-                    className={"underline text-slate-600"}
+                  <TextLink
                     target={"_blank"}
                     rel={"noopener noreferrer"}
                     href={link}
                   >
                     {(() => { try { return new URL(link).hostname.replace("www.", ""); } catch { return link; } })()}
-                  </a>
+                  </TextLink>
                 </li>
               ))}
             </ul>
@@ -276,14 +276,13 @@ export default function Home() {
                 "https://report.ipcc.ch/ar6/wg1/IPCC_AR6_WGI_FullReport.pdf#page=395",
               ].map((link, index) => (
                 <li key={link + index}>
-                  <a
-                    className={"underline text-slate-600"}
+                  <TextLink
                     target={"_blank"}
                     rel={"noopener noreferrer"}
                     href={link}
                   >
                     {(() => { try { return new URL(link).hostname.replace("www.", ""); } catch { return link; } })()}
-                  </a>
+                  </TextLink>
                 </li>
               ))}
             </ul>
@@ -324,14 +323,13 @@ export default function Home() {
                 "https://bonpote.com/comment-ne-plus-confondre-meteo-et-climat",
               ].map((link, index) => (
                 <li key={link + index}>
-                  <a
-                    className={"underline text-slate-600"}
+                  <TextLink
                     target={"_blank"}
                     rel={"noopener noreferrer"}
                     href={link}
                   >
                     {(() => { try { return new URL(link).hostname.replace("www.", ""); } catch { return link; } })()}
-                  </a>
+                  </TextLink>
                 </li>
               ))}
             </ul>
@@ -357,14 +355,13 @@ export default function Home() {
             <ul>
               {["https://www.ipcc.ch/about/"].map((link, index) => (
                 <li key={link + index}>
-                  <a
-                    className={"underline text-slate-600"}
+                  <TextLink
                     target={"_blank"}
                     rel={"noopener noreferrer"}
                     href={link}
                   >
                     {(() => { try { return new URL(link).hostname.replace("www.", ""); } catch { return link; } })()}
-                  </a>
+                  </TextLink>
                 </li>
               ))}
             </ul>
@@ -393,14 +390,13 @@ export default function Home() {
               {["https://ourworldindata.org/emissions-by-sector"].map(
                 (link, index) => (
                   <li key={link + index}>
-                    <a
-                      className={"underline text-slate-600"}
+                    <TextLink
                       target={"_blank"}
                       rel={"noopener noreferrer"}
                       href={link}
                     >
                       {(() => { try { return new URL(link).hostname.replace("www.", ""); } catch { return link; } })()}
-                    </a>
+                    </TextLink>
                   </li>
                 ),
               )}
@@ -440,14 +436,13 @@ export default function Home() {
                 "https://www.worldweatherattribution.org/siberian-heatwave-of-2020-almost-impossible-without-climate-change/",
               ].map((link, index) => (
                 <li key={link + index}>
-                  <a
-                    className={"underline text-slate-600"}
+                  <TextLink
                     target={"_blank"}
                     rel={"noopener noreferrer"}
                     href={link}
                   >
                     {(() => { try { return new URL(link).hostname.replace("www.", ""); } catch { return link; } })()}
-                  </a>
+                  </TextLink>
                 </li>
               ))}
             </ul>
@@ -475,14 +470,13 @@ export default function Home() {
               {["https://www.nature.com/articles/s41467-021-27328-y"].map(
                 (link, index) => (
                   <li key={link + index}>
-                    <a
-                      className={"underline text-slate-600"}
+                    <TextLink
                       target={"_blank"}
                       rel={"noopener noreferrer"}
                       href={link}
                     >
                       {(() => { try { return new URL(link).hostname.replace("www.", ""); } catch { return link; } })()}
-                    </a>
+                    </TextLink>
                   </li>
                 ),
               )}
