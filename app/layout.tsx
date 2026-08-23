@@ -48,7 +48,6 @@ export default function RootLayout({
           sticky
           width="full"
           className="text-foreground"
-          footerSign={<>Le climat en 10 minutes ⏳</>}
           brand={
             <div className="flex items-center gap-1">
               <Brand
