@@ -8,7 +8,7 @@ import ScrollProgress from "@/components/ScrollProgress";
 import ShareButton from "@/components/ShareButton";
 import { ToolShell } from "@/components/tool-shell";
 
-import BackToTop from "@/components/BackToTop";
+import { BackToTop } from "@/components/back-to-top";
 
 
 export const metadata: Metadata = {
@@ -61,7 +61,7 @@ export default function RootLayout({
         >
           {children}
         </ToolShell>
-        <BackToTop />
+        <BackToTop threshold={600} />
       </body>
     </html>
   );
