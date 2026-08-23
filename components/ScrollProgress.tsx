@@ -58,12 +58,12 @@ const ScrollProgress = () => {
     <div className="w-full relative">
       <div className="h-1 w-full">
         <div
-          className="h-full bg-slate-900 dark:bg-slate-100 transition-[width] duration-150"
+          className="h-full bg-slate-900 transition-[width] duration-150"
           style={{ width: `${progress}%` }}
         />
       </div>
       {currentIndex >= 0 && (
-        <div className="absolute right-3 top-2 text-xs text-slate-400 dark:text-slate-500 tabular-nums">
+        <div className="absolute right-3 top-2 text-xs text-slate-400 tabular-nums">
           {currentIndex + 1}/{sectionIds.length}
         </div>
       )}

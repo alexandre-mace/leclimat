@@ -22,7 +22,7 @@ const Example = ({
       <figure className="mx-4 sm:mx-6 lg:mx-auto w-fit">
         <div
           className={
-            "rounded-3xl w-fit mx-auto shadow-xl bg-white dark:bg-slate-800 p-4 sm:p-10 m-auto hover:shadow-2xl transition"
+            "rounded-3xl w-fit mx-auto shadow-xl bg-white p-4 sm:p-10 m-auto hover:shadow-2xl transition"
           }
         >
           <ZoomableImage>
@@ -36,7 +36,7 @@ const Example = ({
             />
           </ZoomableImage>
         </div>
-        <figcaption className="mt-3 text-center text-sm text-slate-500 dark:text-slate-400">
+        <figcaption className="mt-3 text-center text-sm text-slate-500">
           {imageAlt}
         </figcaption>
       </figure>

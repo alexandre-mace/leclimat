@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <>
       <div className="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-64 min-h-screen px-4 sm:px-6">
-        <h1 className="text-slate-900 dark:text-slate-100 font-extrabold text-4xl sm:text-5xl lg:text-7xl tracking-tight text-center">
+        <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-7xl tracking-tight text-center">
           Le climat en 10 minutes{" "}
           <Image
             className={"inline-block -translate-y-2"}
@@ -60,7 +60,7 @@ export default function Home() {
             alt={"Sablier animé"}
           />
         </h1>
-        <p className="mt-6 text-xl sm:text-2xl lg:text-3xl leading-normal text-slate-600 dark:text-slate-300 text-center max-w-4xl mx-auto">
+        <p className="mt-6 text-xl sm:text-2xl lg:text-3xl leading-normal text-slate-600 text-center max-w-4xl mx-auto">
           S'informer sur la responsabilité humaine, les conséquences du
           changement climatique et les solutions en 10 minutes.
         </p>
@@ -104,17 +104,15 @@ export default function Home() {
       <div
         id={"faq"}
         className={
-          "mx-auto text-center mt-24 lg:mt-40 mb-10 text-3xl sm:text-6xl text-slate-900 dark:text-slate-100 font-extrabold"
+          "mx-auto text-center mt-24 lg:mt-40 mb-10 text-3xl sm:text-6xl text-slate-900 font-extrabold"
         }
       >
         FAQ
       </div>
       <Accordion
-        type="single"
-        collapsible
         className={"max-w-3xl mx-auto px-4 sm:px-6"}
       >
-        <AccordionItem value="item-1">
+        <AccordionItem id="item-1">
           <AccordionTrigger>
             Comment les scientifiques savent-ils que les activités humaines sont
             responsables du changement climatique ?
@@ -160,7 +158,7 @@ export default function Home() {
               ].map((link, index) => (
                 <li key={link + index}>
                   <a
-                    className={"underline text-slate-600 dark:text-slate-300"}
+                    className={"underline text-slate-600"}
                     target={"_blank"}
                     rel={"noopener noreferrer"}
                     href={link}
@@ -172,7 +170,7 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-2">
+        <AccordionItem id="item-2">
           <AccordionTrigger>
             La température de la Terre a varié par le passé. En quoi le
             réchauffement actuel est-il différent ?
@@ -279,7 +277,7 @@ export default function Home() {
               ].map((link, index) => (
                 <li key={link + index}>
                   <a
-                    className={"underline text-slate-600 dark:text-slate-300"}
+                    className={"underline text-slate-600"}
                     target={"_blank"}
                     rel={"noopener noreferrer"}
                     href={link}
@@ -291,7 +289,7 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-3">
+        <AccordionItem id="item-3">
           <AccordionTrigger>
             Météo et climat : quelle différence ?
           </AccordionTrigger>
@@ -327,7 +325,7 @@ export default function Home() {
               ].map((link, index) => (
                 <li key={link + index}>
                   <a
-                    className={"underline text-slate-600 dark:text-slate-300"}
+                    className={"underline text-slate-600"}
                     target={"_blank"}
                     rel={"noopener noreferrer"}
                     href={link}
@@ -339,7 +337,7 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-4">
+        <AccordionItem id="item-4">
           <AccordionTrigger>Qu'est-ce que le GIEC ?</AccordionTrigger>
           <AccordionContent>
             <p>
@@ -360,7 +358,7 @@ export default function Home() {
               {["https://www.ipcc.ch/about/"].map((link, index) => (
                 <li key={link + index}>
                   <a
-                    className={"underline text-slate-600 dark:text-slate-300"}
+                    className={"underline text-slate-600"}
                     target={"_blank"}
                     rel={"noopener noreferrer"}
                     href={link}
@@ -372,7 +370,7 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-5">
+        <AccordionItem id="item-5">
           <AccordionTrigger>
             Émissions de GES et empreinte carbone : quelle différence ?
           </AccordionTrigger>
@@ -396,7 +394,7 @@ export default function Home() {
                 (link, index) => (
                   <li key={link + index}>
                     <a
-                      className={"underline text-slate-600 dark:text-slate-300"}
+                      className={"underline text-slate-600"}
                       target={"_blank"}
                       rel={"noopener noreferrer"}
                       href={link}
@@ -409,7 +407,7 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-6">
+        <AccordionItem id="item-6">
           <AccordionTrigger>
             Les événements météorologiques extrêmes sont-ils dus au changement
             climatique ?
@@ -443,7 +441,7 @@ export default function Home() {
               ].map((link, index) => (
                 <li key={link + index}>
                   <a
-                    className={"underline text-slate-600 dark:text-slate-300"}
+                    className={"underline text-slate-600"}
                     target={"_blank"}
                     rel={"noopener noreferrer"}
                     href={link}
@@ -455,7 +453,7 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-7">
+        <AccordionItem id="item-7">
           <AccordionTrigger>
             L'inaction climatique coûte-t-elle plus cher que l'action ?
           </AccordionTrigger>
@@ -478,7 +476,7 @@ export default function Home() {
                 (link, index) => (
                   <li key={link + index}>
                     <a
-                      className={"underline text-slate-600 dark:text-slate-300"}
+                      className={"underline text-slate-600"}
                       target={"_blank"}
                       rel={"noopener noreferrer"}
                       href={link}

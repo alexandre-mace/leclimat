@@ -57,7 +57,7 @@ const Section = ({
 }) => {
   return (
     <div className="max-w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-28 mb-16 lg:mb-32">
-      <div className="mx-auto mb-10 h-px w-16 bg-slate-200 dark:bg-slate-700" />
+      <div className="mx-auto mb-10 h-px w-16 bg-slate-200" />
       <div
         id={id}
         className={`w-full lg:w-2/5 ${imageSrc ? "" : "m-auto text-center"} pt-10 ${
@@ -68,7 +68,7 @@ const Section = ({
           <div
             className={`w-32 h-32 ${
               !imageSrc ? "mx-auto" : ""
-            } p-[0.1875rem] rounded-full ring-1 ring-slate-900/10 dark:ring-slate-100/10 shadow overflow-hidden flex justify-center items-center ${
+            } p-[0.1875rem] rounded-full ring-1 ring-slate-900/10 shadow overflow-hidden flex justify-center items-center ${
               reverse && imageSrc ? "lg:ml-auto" : ""
             }`}
           >
@@ -81,11 +81,11 @@ const Section = ({
           </div>
         )}
         {topic && (
-          <span className="mt-8 block text-3xl font-semibold text-slate-400 dark:text-slate-400">
+          <span className="mt-8 block text-3xl font-semibold text-slate-400">
             {topic}
           </span>
         )}
-        <h2 className="mt-10 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-slate-900 dark:text-slate-100 font-extrabold">
+        <h2 className="mt-10 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-slate-900 font-extrabold">
           {title}
         </h2>
       </div>
@@ -112,7 +112,7 @@ const Section = ({
                     target={"_blank"}
                     rel={"noopener noreferrer"}
                     className={
-                      "underline flex gap-2 items-center hover:text-slate-700 dark:hover:text-slate-300"
+                      "underline flex gap-2 items-center hover:text-slate-700"
                     }
                     href={source}
                   >
@@ -132,7 +132,7 @@ const Section = ({
                         />
                       </svg>
                     </span>
-                    <span className={"inline-block text-slate-600 dark:text-slate-300 break-all"}>{formatSourceLabel(source)}</span>
+                    <span className={"inline-block text-slate-600 break-all"}>{formatSourceLabel(source)}</span>
                   </a>
                 </li>
               ))}
@@ -144,7 +144,7 @@ const Section = ({
             <figure>
               <div
                 className={
-                  "rounded-3xl shadow-xl bg-white dark:bg-slate-800 p-10 m-auto hover:shadow-2xl transition"
+                  "rounded-3xl shadow-xl bg-white p-10 m-auto hover:shadow-2xl transition"
                 }
               >
                 <ZoomableImage>
@@ -158,7 +158,7 @@ const Section = ({
                   />
                 </ZoomableImage>
               </div>
-              <figcaption className="mt-3 text-center text-sm text-slate-500 dark:text-slate-400">
+              <figcaption className="mt-3 text-center text-sm text-slate-500">
                 {imageAlt}
               </figcaption>
             </figure>

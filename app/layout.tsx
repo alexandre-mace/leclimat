@@ -1,13 +1,13 @@
 import "./globals.css";
 import "react-medium-image-zoom/dist/styles.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 import BackToTop from "@/components/BackToTop";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://leclimaten10minutes.com"),
@@ -39,7 +39,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className={"scroll-smooth"}>
-      <body className={inter.className}>
+      <body
+        className={`${GeistSans.variable} ${GeistMono.variable} flex min-h-dvh flex-col font-sans antialiased`}
+      >
         <Header />
         <main className={"text-foreground"}>{children}</main>
         <Footer />
