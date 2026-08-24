@@ -113,7 +113,7 @@ export default function Home() {
       <Accordion
         className={"max-w-3xl mx-auto px-4 sm:px-6"}
       >
-        <AccordionItem id="item-1">
+        <AccordionItem value="item-1">
           <AccordionTrigger>
             Comment les scientifiques savent-ils que les activités humaines sont
             responsables du changement climatique ?
@@ -170,7 +170,7 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem id="item-2">
+        <AccordionItem value="item-2">
           <AccordionTrigger>
             La température de la Terre a varié par le passé. En quoi le
             réchauffement actuel est-il différent ?
@@ -288,7 +288,7 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem id="item-3">
+        <AccordionItem value="item-3">
           <AccordionTrigger>
             Météo et climat : quelle différence ?
           </AccordionTrigger>
@@ -335,7 +335,7 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem id="item-4">
+        <AccordionItem value="item-4">
           <AccordionTrigger>Qu'est-ce que le GIEC ?</AccordionTrigger>
           <AccordionContent>
             <p>
@@ -367,7 +367,7 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem id="item-5">
+        <AccordionItem value="item-5">
           <AccordionTrigger>
             Émissions de GES et empreinte carbone : quelle différence ?
           </AccordionTrigger>
@@ -403,7 +403,7 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem id="item-6">
+        <AccordionItem value="item-6">
           <AccordionTrigger>
             Les événements météorologiques extrêmes sont-ils dus au changement
             climatique ?
@@ -448,7 +448,7 @@ export default function Home() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem id="item-7">
+        <AccordionItem value="item-7">
           <AccordionTrigger>
             L'inaction climatique coûte-t-elle plus cher que l'action ?
           </AccordionTrigger>

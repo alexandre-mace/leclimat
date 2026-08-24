@@ -28,7 +28,7 @@ const ShareButton = () => {
   }, []);
 
   return (
-    <Button variant="ghost" size="sm" onPress={handleShare} aria-label="Partager">
+    <Button variant="ghost" size="sm" onClick={handleShare} aria-label="Partager">
       <Share2 data-icon="inline-start" />
       <span className="hidden sm:inline">{copied ? "Copié !" : "Partager"}</span>
     </Button>
