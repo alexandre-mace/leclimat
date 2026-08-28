@@ -41,3 +41,10 @@ Tailwind CSS with shadcn/ui conventions. The `cn()` utility from `lib/utils.ts` 
 - Emoji icons loaded from external CDN (Microsoft Teams emoji URLs)
 - Section content is hardcoded HTML strings in `page.tsx`, not MDX or a CMS
 - Prettier with `prettier-plugin-tailwindcss` for formatting
+
+## Conventions de la stack
+
+Les conventions communes à mes projets Next vivent dans `docs/next-guidelines.md`,
+un lien vers le dépôt partagé [dev-standards](https://github.com/alexandre-mace/dev-standards)
+(fichier `next/next-guidelines.md`). Si ce lien est cassé, c'est que le dépôt n'est
+pas cloné à côté de celui-ci : lire la version en ligne.
